@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Tool creates solutions from a target project and gathering all transient project dependencies.</Title>
+    <Version>0.1.0</Version>
+    <Authors>Chris Carter</Authors>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CC.SolutionsAnalyzer" Version="0.1.0" />
+  </ItemGroup>
+
+</Project>
